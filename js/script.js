@@ -84,8 +84,6 @@ function graph(){
   //  ctx.rotate((Math.PI / 180) * 180);
     for (x; x<=y1; x+=z1) {
         z=y(x)
-        console.log("value = "+(x).toFixed(2))
-        console.log("result = "+(z).toFixed(4))
         ctx.lineTo(x,z)
     }
     ctx.stroke();
